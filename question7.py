@@ -1,6 +1,6 @@
-num1=int(input("enter number"))
-num2=int(input("enter number"))
-if num1>num2:
-    print(num1)
-else:
-    print(num2)
+# Write a python program to check whether a character is an alphabet or not.
+character = input("enter a character:")
+if character >= "a" and character<= "z" or character>= "A" and character <= "Z":
+    print("yes")
+else :
+    print("no")

@@ -1,7 +1,10 @@
-water = int(input("enter number"))
-if water<=1:
-    print("fill the water tank")
-elif water>1 and water <=10:
-    print("do not fill water in the tank")
+# Write a python program to check whether a number is divisible by 5 and 11 or not.
+num = int(input("enter a number:"))
+if num % 5 == 0 and num % 11 == 0 :
+    print("divisible by both")
+elif num % 5 == 0 :
+    print("divisible by 5")
+elif num % 11 == 0 :
+    print("divisible by 11")
 else:
-    print("overflow")
+    print("not divisible")

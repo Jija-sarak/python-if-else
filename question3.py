@@ -1,6 +1,8 @@
-number=44*30
-num = int(input("enter number"))
-if num>=number :
-    print("greater than or equal")
-else :
-    print("lesser")
+# Write a python program to check whether a number is negative, positive or zero.
+num = int(input("enter a number:"))
+if num > 0:
+    print("positive")
+elif num < 0 :
+    print("negative")
+else:
+    print("zero")
